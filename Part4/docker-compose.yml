@@ -1,3 +1,4 @@
+
 services:
     dbhost:
       image: quanticschoolofbusiness/103mysql
@@ -17,6 +18,6 @@ services:
       depends_on:
         - redis-server
       environment:
-        TO_ADDRESS: <your Quantic email>
-        FROM_ADDRESS: <new Gmail email>
-        FROM_PASSWORD: <Gmail app password>
+        TO_ADDRESS: kapansamumba17@gmail.com
+        FROM_ADDRESS: testingmailz01@gmail.com
+        FROM_PASSWORD: lroduzamxocvupco
